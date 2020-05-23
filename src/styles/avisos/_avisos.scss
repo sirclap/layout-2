@@ -1,0 +1,22 @@
+.avisos {
+    display: flex;
+    flex-direction: column;
+    
+
+    .item {
+        border-radius: $theme-box_border-radius;
+        padding: $theme-box_padding;
+        background-color: $theme-color-base;
+        border: 1px solid gray;       
+        width: 10%;
+        font-weight: bold;        
+                
+        &.important {
+            background-color: $theme-important-color;
+        }
+
+        &.warning {
+            background-color: $theme-warning-color;
+        }
+    }
+}

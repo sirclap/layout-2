@@ -1,0 +1,12 @@
+$theme-color-base: red;
+$theme-important-color:brown;
+$theme-warning-color: pink;
+
+$theme-box_border-radius: 0px;
+$theme-box_padding: 1rem 1rem 3rem 1rem;
+
+%box-shadow {
+    -webkit-box-shadow: -4px 10px 13px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: -4px 10px 13px 0px rgba(0,0,0,0.75);
+    box-shadow: -4px 10px 13px 0px rgba(0,0,0,0.75);
+}

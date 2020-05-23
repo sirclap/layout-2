@@ -1,0 +1,8 @@
+.box {
+    border: 1px solid black;
+    font-weight: bold;
+    padding: $theme-box_padding;
+    width: 10%;
+
+    @extend %box-shadow;
+}

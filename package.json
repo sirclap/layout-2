@@ -1,0 +1,25 @@
+{
+  "name": "layout-2",
+  "version": "1.0.0",
+  "description": "Ejercicio 2: Crear dos temas distintos y mostrar los resultados en una página",
+  "main": "index.js",
+  "scripts": {
+    "start": "rimraf dist && parcel src/index.html --open",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sirclap/layout-2.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sirclap/layout-2/issues"
+  },
+  "homepage": "https://github.com/sirclap/layout-2#readme",
+  "devDependencies": {
+    "parcel": "^1.12.4",
+    "rimraf": "^3.0.2",
+    "sass": "^1.26.5"
+  }
+}
