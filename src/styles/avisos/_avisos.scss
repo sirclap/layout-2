@@ -1,15 +1,13 @@
 .avisos {
     display: flex;
-    flex-direction: column;
-    
+    flex-direction: column;    
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
 
-    .item {
-        border-radius: $theme-box_border-radius;
-        padding: $theme-box_padding;
-        background-color: $theme-color-base;
-        border: 1px solid gray;       
-        width: 10%;
-        font-weight: bold;        
+    li {
+        @extend .box;
+        background-color: $theme-color-base;        
                 
         &.important {
             background-color: $theme-important-color;
